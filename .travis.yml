@@ -8,4 +8,4 @@ services:
 before_script: pip install docker-compose
 
 script:
-  - docker-compose run app sh -c "python anage.py test"m
+  - docker-compose run app sh -c "python anage.py test"
