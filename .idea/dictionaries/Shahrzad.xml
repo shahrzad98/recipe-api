@@ -2,6 +2,7 @@
   <dictionary name="Shahrzad">
     <words>
       <w>adduser</w>
+      <w>pychache</w>
       <w>pythonunbuffered</w>
       <w>workdir</w>
     </words>
