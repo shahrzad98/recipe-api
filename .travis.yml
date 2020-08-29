@@ -7,18 +7,5 @@ services:
 
 before_script: pip install docker-compose
 
-matrix:
-  include:
-    - python: 2.7
-    - python: 3.4
-    - python: 3.5
-    - python: 3.6
-    - python: pypy
-    - python: pypy-5.3
-    - python: pypy3
-    - python: 3.7
-      dist: xenial
-    - python: nightly
-      dist: xenial
 script:
   - docker-compose run app sh -c "python manage.py test && flake8"
